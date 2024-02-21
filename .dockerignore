@@ -1,0 +1,14 @@
+Dockerfile
+README.md
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.pytest_cache
+
+# Exclude "build-time" ignore files.
+.dockerignore
+.gcloudignore
+
+# Exclude git history and configuration.
+.gitignore

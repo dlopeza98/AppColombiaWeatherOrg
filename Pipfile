@@ -1,0 +1,41 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipython = ">=8.10"
+jupyterlab = ">=3.0"
+kedro = "~=0.19.2"
+kedro-datasets = ">=1.0"
+kedro-telemetry = ">=0.3.1"
+kedro-viz = "*"
+notebook = "*"
+pytest = "~=7.2"
+pytest-cov = "~=3.0"
+pytest-mock = "<2.0,>=1.7.1"
+ruff = "~=0.1.8"
+pyspark = "*"
+requests = "*"
+pandas = "*"
+pyarrow = "*"
+black = "*"
+matplotlib = "*"
+plotly = "*"
+nbformat = "*"
+ydata-profiling = "*"
+ipywidgets = "*"
+pip-tools = "*"
+adlfs = "*"
+dcc = "*"
+jupyter-dash = "*"
+dash = "*"
+imageio = "*"
+imageio-ffmpeg = "*"
+kaleido = "*"
+dash-tools = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
